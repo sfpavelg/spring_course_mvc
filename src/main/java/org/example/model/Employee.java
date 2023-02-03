@@ -1,9 +1,14 @@
 package org.example.model;
 
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.Size;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class Employee {
+    @NotEmpty(message = "Name should not be empty")
+    @Size(min = 2, max = 5, message = "name should  be between 2 and 30 symbols")
     private String name;
     private String surname;
     private int salary;

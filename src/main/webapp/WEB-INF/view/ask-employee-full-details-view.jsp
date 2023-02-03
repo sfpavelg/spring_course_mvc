@@ -8,6 +8,7 @@
 <br>
 <form:form action="/employee/showFullDetails" modelAttribute="employee">
     Name <form:input path="name"/>
+    <form:errors path="name"/>
     <br><br>
     SurName <form:input path="surname"/>
     <br><br>

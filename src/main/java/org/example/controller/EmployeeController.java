@@ -1,9 +1,13 @@
 package org.example.controller;
 
+
+import jakarta.validation.Valid;
 import org.example.model.Employee;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
@@ -20,14 +24,14 @@ public class EmployeeController {
         return "ask-employee-full-details-view";
     }
 
-    @RequestMapping("/showFullDetails")
-    public String showEmployeeDetails(@ModelAttribute("employee") Employee emp) {
-        return "show-employee-full-details-view";
-    }
-
-    @RequestMapping("/showDetails")
-    public String showEmployeeDetails() {
-        return "show-emp-details-view";
+    @PostMapping("/showFullDetails")
+    public String showEmployeeDetails( @ModelAttribute("employee") @Valid Employee emp,
+                                       BindingResult bindingResult) {
+        if (bindingResult.hasErrors()) {
+            return "ask-employee-full-details-view";
+        }else {
+            return "show-employee-full-details-view";
+        }
     }
 
 }
