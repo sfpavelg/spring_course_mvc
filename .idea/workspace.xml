@@ -9,9 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcc5fcaa-ec5a-4079-b9cf-efaee04581ae" name="Changes" comment="commit #1&#10;Два контроллера&#10;Два варианта ввода параметров">
+    <list default="true" id="bcc5fcaa-ec5a-4079-b9cf-efaee04581ae" name="Changes" comment="commit #2&#10;Два контроллера&#10;Два варианта ввода параметров&#10;Добавлена форма выбора&#10;Добавлено поле departments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/EmployeeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-employee-full-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-employee-full-details-view.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-employee-full-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-employee-full-details-view.jsp" afterDir="false" />
@@ -193,7 +192,7 @@
       <workItem from="1675239296411" duration="67000" />
       <workItem from="1675239776676" duration="12708000" />
       <workItem from="1675330346944" duration="21562000" />
-      <workItem from="1675409229935" duration="3356000" />
+      <workItem from="1675409229935" duration="10590000" />
     </task>
     <task id="LOCAL-00001" summary="commit #1&#10;Два контроллера&#10;Два варианта ввода параметров">
       <created>1675365043692</created>
@@ -202,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675365043692</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit #2&#10;Два контроллера&#10;Два варианта ввода параметров&#10;Добавлена форма выбора&#10;Добавлено поле departments">
+      <created>1675413110770</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675413110770</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +217,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Два контроллера" />
     <MESSAGE value="commit #1&#10;Два контроллера&#10;Два варианта ввода параметров" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit #1&#10;Два контроллера&#10;Два варианта ввода параметров" />
+    <MESSAGE value="commit #2&#10;Два контроллера&#10;Два варианта ввода параметров&#10;Добавлена форма выбора&#10;Добавлено поле departments" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit #2&#10;Два контроллера&#10;Два варианта ввода параметров&#10;Добавлена форма выбора&#10;Добавлено поле departments" />
   </component>
 </project>
