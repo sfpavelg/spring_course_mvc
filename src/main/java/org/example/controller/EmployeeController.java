@@ -3,14 +3,11 @@ package org.example.controller;
 import org.example.model.Employee;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 @RequestMapping("/employee")
-
 public class EmployeeController {
     @RequestMapping("/")
     public String showFirstView() {
@@ -30,7 +27,7 @@ public class EmployeeController {
 
     @RequestMapping("/showDetails")
     public String showEmployeeDetails() {
-         return "show-emp-details-view";
+        return "show-emp-details-view";
     }
 
 }
